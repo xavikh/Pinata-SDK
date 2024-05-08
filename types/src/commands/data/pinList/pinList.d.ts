@@ -25,6 +25,7 @@ export interface PinataPin {
     date_unpinned: string | null;
     metadata: PinataMetadata;
     regions: PinataPinRegion[];
+    mimeType: string;
 }
 export declare type PinataPinListFilterOptions = {
     hashContains?: string | undefined;
